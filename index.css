@@ -1,0 +1,143 @@
+
+@import url('https://cdn.jsdelivr.net/gh/mustafazeydani/Fonts/CursedTimerULiL/CursedTimerULiL.css');
+
+body {
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homescore {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+h3 {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    white-space: nowrap ;
+    color: #FBBF24;
+}
+
+.timer {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.info {
+    color: #EEEEEE;
+}
+
+.add-score-btn {
+    box-sizing: border-box;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: transparent;
+
+    padding: 8px 10px;
+    font-family: 'Cursed Timer ULiL';
+    margin: 10px auto;
+    color: #9AABD8;
+    margin-bottom: 50px;
+    margin-left: 3px;
+}
+
+.manage-btns {
+    margin: 50px;
+    text-align: center;
+}
+
+.manage-btn {
+    font-family: 'Verdana';
+    text-align: center;
+    color: #080001;
+    background: #BAE6FD;
+    border: 2px solid #BAE6FD;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+.fouls {
+    margin-top: 100px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    color: #BAE6FD;
+}
+
+.fouls-players {
+    color: #9AABD8;
+}
+
+.fouls-additional-info {
+    font-weight: 70;
+    font-size: 13px;
+    line-height: 22px;
+    color:#6d7ba0
+}
+
+.foul-btn {
+    color: #BAE6FD;
+    font-family: 'Verdana';
+    background: transparent;
+    border: 2px solid #BAE6FD;
+    border-radius: 5px;
+}
+
+#start-btn {
+    font-style: normal;
+    font-weight: 420;
+    font-size: 20px;
+    line-height: 16px;
+    background: #059669;
+    border: 10px solid #059669;
+}
