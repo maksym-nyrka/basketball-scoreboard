@@ -53,7 +53,7 @@ h3 {
 }
 
 #period-info {
-    color: #EEEEEE;
+    color: #9AABD8;
 }
 
 .add-score-btn {
@@ -87,6 +87,8 @@ h3 {
 .manage-btns {
     margin: 50px;
     text-align: center;
+    width: 250px;
+    max-width: 250px; 
 }
 
 .manage-btn {
@@ -114,6 +116,8 @@ h3 {
     color: #BAE6FD;
     position: sticky;
     display: block;
+    width: 300px;
+    max-width: 300px; 
 }
 
 .fouls-players {
@@ -128,10 +132,10 @@ h3 {
 }
 
 .foul-btn {
-    color: #BAE6FD;
+    color:  #9AABD8;
     font-family: 'Verdana';
     background: transparent;
-    border: 2px solid #BAE6FD;
+    border: 2px solid #9AABD8;
     border-radius: 5px;
 }
 
