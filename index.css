@@ -42,7 +42,7 @@ h3 {
     color: #FBBF24;
 }
 
-.timer {
+#timer {
     font-family: 'Cursed Timer ULiL';
     font-style: normal;
     font-weight: 400;
@@ -52,7 +52,7 @@ h3 {
     margin-left: 12px;
 }
 
-.info {
+#period-info {
     color: #EEEEEE;
 }
 
@@ -112,6 +112,8 @@ h3 {
     font-size: 15px;
     line-height: 26px;
     color: #BAE6FD;
+    position: sticky;
+    display: block;
 }
 
 .fouls-players {
