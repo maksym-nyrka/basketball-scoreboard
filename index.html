@@ -6,22 +6,22 @@
         <div class="container">
             <div>
                 <h3>HOME</h3>
-                <div class="homescore">0</div>
-                <button class="add-score-btn">+1</button>
-                <button class="add-score-btn">+2</button>
-                <button class="add-score-btn">+3</button>
+                <div id="home-score" class="homescore">0</div>
+                <button class="add-score-btn" onclick="addHome(1)">+1</button>
+                <button class="add-score-btn" onclick="addHome(2)">+2</button>
+                <button class="add-score-btn" onclick="addHome(3)">+3</button>
             </div>
             <div>
-                <h3 class="info">PERIOD 1</h3>
-                <h3 class="timer">00:00</h3>
+                <h3 id="period-info">PERIOD 1</h3>
+                <h3 id="timer">00:00</h3>
                 
             </div>
             <div>
                 <h3>GUEST</h3>
-                <div class="homescore">0</div>
-                <button class="add-score-btn">+1</button>
-                <button class="add-score-btn">+2</button>
-                <button class="add-score-btn">+3</button>
+                <div id="guest-score" class="homescore">0</div>
+                <button class="add-score-btn" onclick="addGuest(1)">+1</button>
+                <button class="add-score-btn" onclick="addGuest(2)">+2</button>
+                <button class="add-score-btn" onclick="addGuest(3)">+3</button>
             </div>
         </div>
         <div class="container">
@@ -63,8 +63,8 @@
             </div>
             <div>
                 <div class="manage-btns">
-                    <button id="start-btn" class="manage-btn">START GAME</button>
-                    <div><button class="manage-btn">RESET</button></div>
+                    <button id="start-btn" class="manage-btn" onclick="manageGame()">START GAME</button>
+                    <div><button class="manage-btn" onclick="reset()">RESET</button></div>
                 </div>
             </div>
             <div class="fouls">
